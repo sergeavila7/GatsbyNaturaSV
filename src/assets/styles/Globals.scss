@@ -1,0 +1,59 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Roboto&display=swap');
+
+$color-white: #ffffff;
+$color-black: #111111;
+$color-gray: #3f4142;
+$color-light: #f1f5f8;
+$color-natura: #D47D2D;
+$color-omega: #b92025;
+$overlay: rgba(0, 0, 0, 0.5);
+$font1: 'Open Sans Condensed', sans-serif;;
+$font2: 'Roboto', sans-serif;;
+$facebook: #3b5099;
+$instagram: #e4405f;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  // font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: $color-white;
+  color: $color-black;
+  h1,
+  h2,
+  h3, a {
+    font-family: $font1;
+    text-transform:uppercase;
+  }
+  p {
+    font-family: $font2;
+  }
+}
+
+.video{
+  background-color: white;
+  top:0;
+  max-height: 550px;
+  overflow: hidden;
+}
+h2 {
+  border-bottom:2px solid #CCC;
+  text-align:center;
+}
+span{
+  position:relative;
+  top:2px;
+  display:inline-block;
+  border-bottom:2px solid $color-natura;
+}

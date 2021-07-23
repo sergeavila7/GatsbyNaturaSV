@@ -1,0 +1,17 @@
+.banner__home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+  ul{
+    li{
+      list-style: square inside;
+      font-size: 1.2rem;
+    }
+  }
+}

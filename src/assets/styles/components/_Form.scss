@@ -1,0 +1,88 @@
+.form{
+    max-width: 800px;  
+    margin: 0px auto 50px;
+position: relative;
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);      
+padding: 30px;   
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: $color-black;
+
+}
+
+
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-group{
+    position: relative;
+    margin: 25px 20px;
+}
+.form-control{
+    display: display;
+    width:100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    border-radius: none;
+    
+}
+.form-control:focus {
+    box-shadow:none;
+     outline: none; 
+   
+}
+.contact-form .form-label{
+        position: absolute;
+        left: 20px;
+        bottom: 22px;
+        line-height: 26px;
+        font-weight: 400;
+        color: $color-gray;
+        cursor:text;
+        transition: transform 0.2 ease-in-out;
+    
+    }
+  
+
+    .submit-btn{
+        display: block;
+    background-color: $color-natura !important;
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+
+input:valid,
+textarea:valid {
+    border-color: $color-natura;
+
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: #f26966;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Natura Red Omega",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio Natura Red Omega",
+  "author": "serge_avila7",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop --open",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "license": "0BSD",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "emailjs-com": "^2.6.4",
+
+    "gatsby": "^3.9.0",
+    "gatsby-plugin-image": "^1.1.1",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-sass": "^4.9.0",
+    "gatsby-source-filesystem": "^3.9.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-hook-form": "^6.15.5",
+    "react-player": "^2.9.0",
+    "sass": "^1.35.2",
+    "sweetalert2": "^11.0.18"
+  }
+}

@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px) {
+
+  /***** NAVBAR*****/
+  .header .navbar .logo__container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+    .menu-responsive {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: $color-white;
+      border-top: 2px solid $color-natura;
+      bottom: 0;
+      height: 50px;
+      left: 0;
+      margin: 0 auto;
+      position: fixed;
+      right: 0;
+      width: 100%;
+      z-index: 1000; 
+    a{
+      align-items: center;
+        color: $color-gray;
+        display: inline-flex;
+        height: 100%;
+        justify-content: space-around;
+        text-decoration: none;       
+        &[aria-current] {
+          color: $color-black;
+            &:after {
+              content: "";
+              color: $color-natura;
+              animation-duration: .7s;
+              animation-name: fadeIn;
+              position: absolute;
+              bottom: 0;
+              font-size: 14px;
+              line-height: 15px;
+            }
+          }
+     
+        }
+        .home a {
+          &[aria-current]:after {       
+            content: "Inicio";
+          }
+            }
+        .about a {
+          &[aria-current]:after {       
+            content: "Nosotros";
+          }
+            }
+        .benefits a {
+          &[aria-current]:after {       
+            content: "Beneficios";
+          }
+            }
+        .contact a {
+          &[aria-current]:after {       
+            content: "Contacto";
+          }
+            }
+            }
+      @keyframes fadeIn {
+        from {
+          filter: blur(5px);
+          opacity: 0;
+        }
+      
+        to {
+          filter: blur(0);
+    opacity: 1;
+        }
+      }
+  /***** CARDS *****/
+  .container__cards{
+    .card{
+      height: 450px;
+      
+      &__body{
+          margin-top: -40px;
+          visibility: visible;
+          opacity: 1;
+      }
+    }
+  }
+  .footer{
+    margin-bottom: 40px;
+  }
+  .container__socials{
+    .container__icons{
+        &:hover{
+            width: 50px;
+        }
+ 
+    }
+}
+
+}
+  
+@media only screen and (max-width: 576px) {
+.container__cards{
+  .card{
+    height: 400px;
+    .container__img{
+      max-height: 250px;
+    }
+  }
+}
+
+.banner__home{
+  p{
+    font-size: 1.2rem;
+  }
+  ul{
+    li{
+      font-size: 1rem;
+    }
+  }
+}
+}

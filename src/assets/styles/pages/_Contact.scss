@@ -1,0 +1,27 @@
+
+.container__cards--requirements{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    .card__requirements{
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);      
+        padding: 10px;
+        i{
+            font-size: 90px;
+            color: $color-natura;
+        }
+        p{
+            font-size: 1rem;
+            color:$color-gray;
+            font-weight: 900;
+            text-align: center;
+        }
+    }
+}
